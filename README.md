@@ -37,7 +37,7 @@ Desain data mart ini akan menjadi *blueprint* (cetak biru) untuk usulan pengemba
 
 Data mart ini dirancang untuk melacak KPI utama dari domain pilot project, **Pusat Kelola Karya Intelektual (PKKI)**, berdasarkan capaian "Highlight 2023–2024":
 
-* [cite_start]**Karya Intelektual (PKKI):** Melacak produktivitas KI (contoh capaian: Peringkat 7 Nasional – 92 Paten Sederhana; Peringkat 10 Nasional – 22 Paten) [cite: 2786, 2914-2917].
+* **Karya Intelektual (PKKI):** Melacak produktivitas KI (contoh capaian: Peringkat 7 Nasional – 92 Paten Sederhana; Peringkat 10 Nasional – 22 Paten)
 
 ## Architecture
 

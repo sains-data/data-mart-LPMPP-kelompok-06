@@ -5,12 +5,13 @@ Kelompok 06
 
 ## Team Members
 
-| NIM | Name | Role |
-| :--- | :--- | :--- |
-| 123450071 | Khairunnisa Maharani | Project Lead |
-| 123450110 | Ihsan Maulana Yusuf | Database Designer |
-| 123450040 | Aprilia Dewi Hutapea | ETL Developer |
-| 122450061 | Kharisa Harvanny | BI Developer & QA |
+| NIM        | Name                   | Role                 | Email                     |
+| :--------- | :--------------------- | :------------------- | :------------------------ |
+| 123450071  | Khairunnisa Maharani   | Project Lead         | Khairunnisa.123450071@student.itera.ac.id |
+| 123450110  | Ihsan Maulana Yusuf    | Database Designer    | 123450110@student.itera.ac.id |
+| 123450040  | Aprilia Dewi Hutapea   | ETL Developer        | 123450040@student.itera.ac.id |
+| 122450061  | Kharisa Harvanny       | BI Developer & QA    | 122450061@student.itera.ac.id |
+
 
 ## Business Domain
 

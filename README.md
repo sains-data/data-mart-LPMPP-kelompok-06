@@ -5,13 +5,12 @@ Kelompok 06
 
 ## Team Members
 
-| NIM        | Name                   | Role                 | Email                     |
-| :--------- | :--------------------- | :------------------- | :------------------------ |
-| 123450071  | Khairunnisa Maharani   | Project Lead         | Khairunnisa.123450071@student.itera.ac.id |
-| 123450110  | Ihsan Maulana Yusuf    | Database Designer    | 123450110@student.itera.ac.id |
-| 123450040  | Aprilia Dewi Hutapea   | ETL Developer        | 123450040@student.itera.ac.id |
-| 122450061  | Kharisa Harvanny       | BI Developer & QA    | 122450061@student.itera.ac.id |
-
+| NIM | Name | Role | Email |
+| :--- | :--- | :--- | :--- |
+| 123450071 | Khairunnisa Maharani | Project Lead | Khairunnisa.123450071@student.itera.ac.id |
+| 123450110 | Ihsan Maulana Yusuf | Database Designer | 123450110@student.itera.ac.id |
+| 123450040 | Aprilia Dewi Hutapea | ETL Developer | 123450040@student.itera.ac.id |
+| 122450061 | Kharisa Harvanny | BI Developer & QA | 122450061@student.itera.ac.id |
 
 ## Business Domain
 
@@ -30,40 +29,35 @@ Lembaga ini menaungi **7 Pusat Layanan**:
 
 ## Objectives
 
-Tujuan dari data mart ini adalah untuk menyediakan *single source of truth* bagi pimpinan LPMPP untuk memantau Key Performance Indicators (KPI) dari ketujuh pusat layanan. Dashboard analitik akan dibuat untuk menjawab pertanyaan bisnis terkait akreditasi, produktivitas karya intelektual, layanan halal, dan asesmen mahasiswa.
+Tujuan dari proyek *pilot* data mart ini adalah untuk merancang model analitik yang terfokus pada satu domain, yaitu **Pusat Kelola Karya Intelektual (PKKI)**.
+
+Desain data mart ini akan menjadi *blueprint* (cetak biru) untuk usulan pengembangan data mart di 6 pusat layanan lainnya di masa depan.
 
 ## Key Performance Indicators (KPIs)
 
-Data mart ini dirancang untuk melacak KPI utama LPMPP berdasarkan capaian "Highlight 2023–2024":
+Data mart ini dirancang untuk melacak KPI utama dari domain pilot project, **Pusat Kelola Karya Intelektual (PKKI)**, berdasarkan capaian "Highlight 2023–2024":
 
-* **Akreditasi (PPM):** Melacak capaian akreditasi Program Studi (contoh capaian 2024: 3 Prodi "Unggul" dan 11 Prodi "Baik Sekali").  
-* **Karya Intelektual (PKKI):** Melacak produktivitas KI (contoh capaian: Peringkat 7 Nasional – 92 Paten Sederhana; Peringkat 10 Nasional – 22 Paten).  
-* **Layanan Halal (PH):** Memonitor progres layanan (contoh capaian: 200 produk didampingi dan 11 auditor halal baru tersertifikasi).  
-* **Mutu Internal (PPM):** Memonitor jumlah auditor AMI tersertifikasi (contoh capaian: total 101 auditor).  
-* **Layanan TPB (PTPB):** Melacak pelaksanaan asesmen (contoh capaian: 4.470 mahasiswa baru mengikuti Assessment Basic Science).  
+* [cite_start]**Karya Intelektual (PKKI):** Melacak produktivitas KI (contoh capaian: Peringkat 7 Nasional – 92 Paten Sederhana; Peringkat 10 Nasional – 22 Paten) [cite: 2786, 2914-2917].
 
 ## Architecture
 
-* **Approach**: Kimball Dimensional Modeling  
+* **Approach**: Kimball Dimensional Modeling (Fokus pada 1 Star Schema)  
 * **Platform**: SQL Server on Azure VM  
 * **ETL**: SQL Server Integration Services (SSIS)  
 * **Visualization**: Power BI Desktop  
 
-## Data Model
+## Data Model (Scope Misi 1)
 
-Data Mart terdiri dari beberapa skema bintang (star schema) yang berfokus pada proses bisnis utama:
+Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PKKI, sesuai dengan *deliverables* `dimensional-model.png` dan `data-dictionary.xlsx`.
 
-* **Fact Tables:**
-    * `Fact_Akreditasi`
+* **Fact Table:**
     * `Fact_PengajuanKI`
-    * `Fact_LayananHalal`
-    * `Fact_AssessmentTPB`
-    * `Fact_AuditMutuInternal`
 
-* **Conformed Dimensions:**
-    * `Dim_Date`
-    * `Dim_ProgramStudi`
-    * `Dim_Dosen`
+* **Dimension Tables:**
+    * `Dim_Date` (Kapan diajukan)
+    * `Dim_Inventor` (Siapa yang mengajukan)
+    * `Dim_JenisKI` (Jenis karya: Paten, Paten Sederhana, dll)
+    * `Dim_Status` (Status pengajuan: Granted, Pending, dll)
 
 ## Repository Structure
 ```
@@ -103,4 +97,4 @@ Data Mart terdiri dari beberapa skema bintang (star schema) yang berfokus pada p
 * [Data Dictionary](docs/02-design/data-dictionary.xlsx)  
 * [ETL Documentation](docs/03-implementation/etl-documentation.md)  
 * [User Manual](docs/03-implementation/user-manual.pdf)  
-* [Operations Manual](docs/03-implementation/operations-manual.pdf)  
+* [Operations Manual](docs/03-implementation/operations-manual.pdf)

@@ -64,7 +64,7 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 ├── README.md
 ├── docs/
 │   ├── 01-requirements/
-│   │   ├── business-requirements.md
+│   │   ├── business-requirements.pdf
 │   │   └── data-sources.md
 │   ├── 02-design/
 │   │   ├── ERD.png

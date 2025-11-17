@@ -9,7 +9,7 @@ Kelompok 06
 | :--- | :--- | :--- | :--- |
 | 123450071 | Khairunnisa Maharani | Project Lead | Khairunnisa.123450071@student.itera.ac.id |
 | 123450110 | Ihsan Maulana Yusuf | Database Designer |ihsan.123450110@student.itera.ac.id |
-| 123450040 | Aprilia Dewi Hutapea | ETL Developer | 123450040@student.itera.ac.id |
+| 123450040 | Aprilia Dewi Hutapea | ETL Developer | aprilia.123450040@student.itera.ac.id |
 | 122450061 | Kharisa Harvanny | BI Developer & QA | kharisa.122450061@student.itera.ac.id |
 
 ## Business Domain

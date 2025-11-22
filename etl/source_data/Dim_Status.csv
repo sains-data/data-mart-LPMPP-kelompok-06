@@ -1,0 +1,9 @@
+StatusKey,Nama_Status
+1,Diajukan (Submitted)
+2,Pemeriksaan Formalitas
+3,Publikasi
+4,Pemeriksaan Substantif
+5,Diberi (Granted)
+6,Ditolak (Rejected)
+7,Ditarik Kembali (Withdrawn)
+8,Kadaluwarsa (Expired)

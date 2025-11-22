@@ -103,7 +103,7 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 ├── dashboards/
 │   └── (Masih kosong, nanti buat Misi 3)
 └── tests/
-    └── (Opsional, bisa kosong dulu)
+    └── (Opsional)
 ```
 
 ## Documentation

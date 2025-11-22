@@ -23,10 +23,8 @@ Alur data dirancang menggunakan pendekatan **Staging Area** untuk meminimalkan b
 
 ```mermaid
 graph LR
-
-A[Source: CSV Files] -->|Extract| B[Staging Area (stg)]
-
-B -->|Transform & Validate| C[Data Warehouse (dbo)]
+    A["Source: CSV Files"] -->|Extract| B["Staging Area (stg)"]
+    B -->|Transform & Validate| C["Data Warehouse (dbo)"]
 ```
 
 ### Urutan Eksekusi (Control Flow)

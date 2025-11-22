@@ -76,7 +76,8 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   │   ├── Technical_Documentation.pdf 
 │   │   └── etl-documentation.md           
 │   └── 04-testing/                         
-│       ├── Data_Quality_Report.pdf    
+│       ├── Data_Quality_Report.pdf
+│       ├── Quality_Metrics_Summary.pdf
 │       └── Performance_Test_Report.pdf 
 ├── sql/
 │   ├── 01_Create_Database.sql

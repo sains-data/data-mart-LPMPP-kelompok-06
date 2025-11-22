@@ -69,26 +69,31 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   ├── 02-design/
 │   │   ├── ERD.png
 │   │   ├── dimensional-model.png
-│   │   └── data-dictionary.xlsx
+│   │   ├── data-dictionary.xlsx
+│   │   └── ETL_Mapping_Document.xlsx   
 │   ├── 03-implementation/
-│   │   ├── etl-documentation.md
-│   │   ├── user-manual.pdf
-│   │   └── operations-manual.pdf
-│   └── presentations/
+│   │   ├── Technical_Documentation.pdf 
+│   │   └── etl-documentation.md           
+│   └── 04-testing/                         
+│       ├── Data_Quality_Report.pdf    
+│       └── Performance_Test_Report.pdf 
 ├── sql/
 │   ├── 01_Create_Database.sql
 │   ├── 02_Create_Dimensions.sql
 │   ├── 03_Create_Facts.sql
 │   ├── 04_Create_Indexes.sql
 │   ├── 05_Create_Partitions.sql
-│   └── 06_Create_Staging.sql
+│   ├── 06_Create_Staging.sql
+│   ├── 08_Data_Quality_Checks.sql      
+│   └── 09_Test_Queries.sql             
 ├── etl/
 │   ├── packages/
-│   └── scripts/
+│   │   └── LPMPP_ETL.dtsx             
+│   └── scripts/                           
 ├── dashboards/
-│   └── PowerBI files
+│   └── (Masih kosong, nanti buat Misi 3)
 └── tests/
-    └── test scripts
+    └── (Opsional, bisa kosong dulu)
 ```
 
 ## Documentation

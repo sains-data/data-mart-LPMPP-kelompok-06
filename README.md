@@ -91,7 +91,8 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 ├── etl/
 │   ├── packages/
 │   │   └── LPMPP_ETL.dtsx             
-│   └── scripts/                           
+│   └── scripts/
+│               └── generate_haki.py            
 ├── dashboards/
 │   └── (Masih kosong, nanti buat Misi 3)
 └── tests/

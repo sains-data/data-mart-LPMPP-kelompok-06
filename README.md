@@ -70,7 +70,8 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   │   ├── ERD.png
 │   │   ├── dimensional-model.png
 │   │   ├── data-dictionary.xlsx
-│   │   └── ETL_Mapping_Document.xlsx   
+│   │   ├── ETL_Mapping_Document.xlsx
+│   │   └── ETL_Architecture_Document.pdf
 │   ├── 03-implementation/
 │   │   ├── Technical_Documentation.pdf 
 │   │   └── etl-documentation.md           

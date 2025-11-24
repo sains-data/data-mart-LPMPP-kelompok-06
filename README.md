@@ -5,12 +5,12 @@ Kelompok 06
 
 ## Team Members
 
-| NIM | Name | Role | Email |
-| :--- | :--- | :--- | :--- |
-| 123450071 | Khairunnisa Maharani | Project Lead | Khairunnisa.123450071@student.itera.ac.id |
-| 123450110 | Ihsan Maulana Yusuf | Database Designer |ihsan.123450110@student.itera.ac.id |
-| 123450040 | Aprilia Dewi Hutapea | ETL Developer | aprilia.123450040@student.itera.ac.id |
-| 122450061 | Kharisa Harvanny | BI Developer & QA | kharisa.122450061@student.itera.ac.id |
+| NIM | Name | Role | Email | Deskripsi |
+| :--- | :--- | :--- | :--- | :--- |
+| 123450071 | Khairunnisa Maharani | Principal Engineer & Team Lead | Khairunnisa.123450071@student.itera.ac.id | Bertanggung Jawab penuh atas development (coding), Arsitektur Sistem, dan Logika inti |
+| 123450110 | Ihsan Maulana Yusuf | Database Administrator |ihsan.123450110@student.itera.ac.id | Bertanggung jawab menjalankan script database dan maintenance file fisik |
+| 123450040 | Aprilia Dewi Hutapea | Technical Writer & ETL Support | aprilia.123450040@student.itera.ac.id | Bertanggung jawab menyusun dokumentasi teknis dan membantu verifikasi proses ETL |
+| 122450061 | Kharisa Harvanny | QA Tester | kharisa.122450061@student.itera.ac.id | Bertanggung jawab melakukan testing akhir dan pelaporan bug |
 
 ## Business Domain
 

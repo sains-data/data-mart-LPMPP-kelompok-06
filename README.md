@@ -74,7 +74,7 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   │   └── ETL_Architecture_Document.pdf
 │   ├── 03-implementation/
 │   │   ├── Technical_Documentation_Misi2.pdf
-│   │   ├── Technical_Documentation_Misi2.pdf 
+│   │   ├── Complete_Documentation_Package.pdf 
 │   │   └── etl-documentation.md           
 │   └── 04-testing/                         
 │       ├── Data_Quality_Report.pdf
@@ -105,8 +105,6 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │       └── Fact_PengajuanKI.csv           
 ├── dashboards/
 │   └── Dashboard_HAKI.pbix
-├── tests/
-│   └── (Opsional)
 └── presentations/
     └── Final_Presentation_Group6.pdf
 ```

@@ -1,0 +1,7 @@
+-- Script Manual Backup Database
+BACKUP DATABASE [DM_LPMPP_DW]
+TO DISK = N'C:\Backups\DM_LPMPP_DW_Full.bak'
+WITH NOFORMAT, NOINIT,
+NAME = N'DM_LPMPP_DW-Full Database Backup',
+SKIP, NOREWIND, NOUNLOAD, STATS = 10;
+GO

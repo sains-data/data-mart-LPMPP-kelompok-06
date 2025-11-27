@@ -1,7 +1,7 @@
 USE DM_LPMPP_DW;
 GO
 -- 1. Membuat Login untuk Rektor (Viewer)
-CREATE LOGIN [User_Rektor] WITH PASSWORD=N'Itera2025!', DEFAULT_DATABASE=[DM_LPMPP_DW];
+CREATE LOGIN [User_Rektor] WITH PASSWORD=N'YourStrongPasswordHere', DEFAULT_DATABASE=[DM_LPMPP_DW];
 CREATE USER [User_Rektor] FOR LOGIN [User_Rektor];
 -- Kasih hak akses HANYA BISA BACA (Reader)
 ALTER ROLE [db_datareader] ADD MEMBER [User_Rektor];

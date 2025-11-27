@@ -73,7 +73,8 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   │   ├── ETL_Mapping_Document.xlsx
 │   │   └── ETL_Architecture_Document.pdf
 │   ├── 03-implementation/
-│   │   ├── Technical_Documentation.pdf 
+│   │   ├── Technical_Documentation_Misi2.pdf
+│   │   ├── Technical_Documentation_Misi2.pdf 
 │   │   └── etl-documentation.md           
 │   └── 04-testing/                         
 │       ├── Data_Quality_Report.pdf
@@ -87,7 +88,9 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   ├── 05_Create_Partitions.sql
 │   ├── 06_Create_Staging.sql
 │   ├── 08_Data_Quality_Checks.sql      
-│   └── 09_Test_Queries.sql             
+│   ├── 09_Test_Queries.sql
+│   ├── 10_Security.sql
+│   └── 11_Backup.sql            
 ├── etl/
 │   ├── packages/
 │   │   └── LPMPP_ETL.dtsx             
@@ -101,9 +104,11 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │       ├── Dim_Status.csv
 │       └── Fact_PengajuanKI.csv           
 ├── dashboards/
-│   └── (Masih kosong, nanti buat Misi 3)
-└── tests/
-    └── (Opsional)
+│   └── Dashboard_HAKI.pbix
+├── tests/
+│   └── (Opsional)
+└── presentations/
+    └── Final_Presentation_Group6.pdf
 ```
 
 ## Documentation

@@ -93,7 +93,8 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   ├── 08_Data_Quality_Checks.sql      
 │   ├── 09_Test_Queries.sql
 │   ├── 10_Security.sql
-│   └── 11_Backup.sql            
+│   ├── 11_Backup.sql
+│   └── 12_ETL_Scheduler.sql          
 ├── etl/
 │   ├── packages/
 │   │   └── LPMPP_ETL.dtsx             

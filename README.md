@@ -74,6 +74,7 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 │   │   └── ETL_Architecture_Document.pdf
 │   ├── 03-implementation/
 │   │   ├── Technical_Documentation_Misi2.pdf
+│   │   ├── Technical_Documentation_Misi3.pdf
 │   │   ├── Complete_Documentation_Package.pdf 
 │   │   └── etl-documentation.md           
 │   └── 04-testing/                         

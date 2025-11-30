@@ -118,5 +118,3 @@ Data Model untuk Misi 1 ini difokuskan pada **satu Star Schema** untuk domain PK
 * [Business Requirements](docs/01-requirements/business-requirements.pdf)  
 * [Data Dictionary](docs/02-design/data-dictionary.xlsx)  
 * [ETL Documentation](docs/03-implementation/etl-documentation.md)  
-* [User Manual](docs/03-implementation/user-manual.pdf)  
-* [Operations Manual](docs/03-implementation/operations-manual.pdf)
